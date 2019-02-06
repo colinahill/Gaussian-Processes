@@ -148,8 +148,8 @@ if __name__ == "__main__":
     rng = (low,high)
     x = np.linspace(low,high,1000)
 
-    nburn = 200
-    nrun = 2000
+    nburn = 2000
+    nrun = 20000
     nwalkers = 200
 
     t, y, yerr = generate_data(truth_gp, 50, rng)
